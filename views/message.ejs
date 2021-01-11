@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #template{
+            margin: 200px 25% 0px 25%;
+            padding: 50px;
+            background-color: rgba(180, 173, 173, 0.774); 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="template">
+        <%- message %>
+        <h1>Hello</h1>
+        <h2><%= data %>!</h2>
+    </div>
+
+    <a href="/"><button>Back to Home</button></a>
+</body>
+</html>
